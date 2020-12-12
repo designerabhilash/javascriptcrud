@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    height: 100vh;
+}
+.wrapper {
+    background-color: blueviolet;
+    height: 100%;
+}
+.adduser {
+    background-color: #fff;
+    padding: 1rem;
+    width: 50rem;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.2);
+}
+.adduser h3 {
+    margin: 0;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #ddd;
+} 
+.userform {
+    display: flex;
+    justify-content: space-between;
+}
+.userform .inputfield label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.usertable {
+    background-color: #fff;
+    padding: 1rem;
+    width: 50rem;
+    border-radius: 5px;
+    margin: auto;
+}
+.fa-user-edit {
+    color: forestgreen;
+    cursor: pointer;
+}
+.fa-trash {
+    color: red;
+    cursor: pointer;
+}
+.form-control, .form-control:focus {
+    box-shadow: none;
+    border: 2px solid #ddd;
+}
