@@ -60,4 +60,10 @@ body {
     .adduser {
         width: 100%;
     }
+    .userform {
+        flex-direction: column;
+    }
+    .usertable {
+        width: 100%;
+    }
 }
