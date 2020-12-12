@@ -63,7 +63,7 @@ body {
     .userform, .buttons {
         flex-direction: column;
     }
-    .usertable {
+    .usertable, .btn {
         width: 100%;
     }
 }
